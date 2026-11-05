@@ -2,7 +2,7 @@
 
 Este projeto tem o objetivo de **automatizar a inserção de visitas em um sistema (SharePoint)**, preenchendo os campos necessários com os dados extraídos de um arquivo Excel.
 
-**Metodologia:** foi usada a IDE Jupyter e a linguagem Python.
+**Metodologia:** Foram usados a IDE Jupyter e a linguagem Python.
 
 ## 🎯 Contexto e objetivo
 
@@ -27,7 +27,7 @@ Depois, o código executa um loop que percorre os dados filtrados e, para cada r
 - ➡️ Cola o nome do "Consultor" no campo correspondente
 - ➡️ Clica em "Save and Close"
 - ➡️ Abre uma nova visita
-- ➡️ E repete, com cada vendedor.
+- ➡️ E repete com cada vendedor.
 
 A automação usa a posição dos pixels da tela com a biblioteca **pyautogui**, que controla o mouse e o teclado.
 
@@ -35,10 +35,10 @@ A automação usa a posição dos pixels da tela com a biblioteca **pyautogui**,
 
 | Antes | Depois |
 |---|---|
-| ~**2 horas** para lançar as visitas semanais de todos os vendedores | ~**20 a 30 minutos** com o código rodando |
+| ~**3 horas** para lançar as visitas semanais de todos os vendedores | ~**20 a 30 minutos** com o código rodando |
 
-- 💡 **Antes:** um processo repetitivo e demorado, com cerca de 2 horas por semana.
-- 💡 **Solução:** com o código rodando no computador, o lançamento passou a levar cerca de 20 a 30 minutos.
+- 💡 **Antes:** um processo repetitivo e demorado, que levava cerca de 3 horas por semana.
+- 💡 **Solução:** com o código rodando no computador, o lançamento passou a levar de 20 a 30 minutos.
 
 ## 🧰 Ferramentas
 
